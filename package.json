@@ -1,0 +1,18 @@
+{
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "resetDB": "bun run reset.ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "drizzle-orm": "^0.44.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.3"
+  }
+}
