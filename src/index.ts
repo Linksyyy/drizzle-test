@@ -19,7 +19,7 @@ async function main() {
   await db.insert(usersTable).values(user);
 }
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 100; i++) {
   await main();
 }
 
